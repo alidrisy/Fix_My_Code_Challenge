@@ -26,6 +26,7 @@ class square():
 
 
 if __name__ == "__main__":
+    """ Create a square object """
 
     s = square(width=12, height=12)
     print(s)
