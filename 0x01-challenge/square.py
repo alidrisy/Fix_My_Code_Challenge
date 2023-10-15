@@ -1,14 +1,14 @@
 #!/usr/bin/python3
-"""define a square class"""
+"""Define a model for a Square class"""
 
 
 class square():
-    """ a square calss"""
+    """A Square class"""
     width = 0
     height = 0
 
     def __init__(self, *args, **kwargs):
-        """ initilaize data"""
+        """initilaize data for the squar"""
         for key, value in kwargs.items():
             setattr(self, key, value)
 
@@ -27,7 +27,6 @@ class square():
 
 if __name__ == "__main__":
     """ Create a square object """
-
     s = square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
